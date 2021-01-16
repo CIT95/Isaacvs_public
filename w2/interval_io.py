@@ -1,10 +1,10 @@
 while True:
 	print('Enter a starting value.')
-	start_val = input()
+	start_val = int(input())
 	print('')
 
 	print('Enter a ending value')
-	end_val = input()
+	end_val = int(input())
 	print('')
 
 	if int(start_val) > int(end_val):
