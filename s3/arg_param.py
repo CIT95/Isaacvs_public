@@ -1,3 +1,4 @@
+# duplicate the string if they are not default params
 def dupString(string='', times=0):
 	if len(string) == 0 or times == 0:
 		print("No duplication then?")
@@ -6,9 +7,8 @@ def dupString(string='', times=0):
 	for i in range(times):
 		newString = newString + string
 	return newString
-
 	
-
+# multiply string function
 def stringMulti():
 	print('Enter string for duplication:', end=' ')
 	string = input()
